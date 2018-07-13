@@ -75,13 +75,12 @@
     "babel-core": "^6.26.0",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-stage-0": "^6.24.1",
     "codecov.io": "0.1.6",
-    "istanbul": "0.4.1",
-    "rollup": "^0.54.1",
+    "istanbul": "0.4.5",
+    "rollup": "^0.62.0",
     "rollup-plugin-babel": "^3.0.3",
-    "tape": "4.2.2",
-    "zuul": "3.8.0"
+    "tape": "4.9.1",
+    "zuul": "3.12.0"
   },
   "main": "lib/url-pattern",
   "module": "es/url-pattern",

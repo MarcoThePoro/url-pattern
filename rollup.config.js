@@ -7,7 +7,7 @@ export default [
       babel({
         babelrc: false,
         plugins: ['external-helpers'],
-        presets: [['env', {modules: false}], 'stage-0']
+        presets: [['env', {modules: false}]]
       })
     ],
     output: [{
