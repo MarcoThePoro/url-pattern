@@ -10,10 +10,13 @@ export default [
         presets: [['env', {modules: false}], 'stage-0']
       })
     ],
-    output: {
+    output: [{
       file: 'lib/url-pattern.js',
       format: 'umd',
       name: 'UrlPattern'
-    }
+    }, {
+      file: 'es/url-pattern.js',
+      format: 'es',
+    }]
   }
 ]

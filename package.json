@@ -84,6 +84,7 @@
     "zuul": "3.8.0"
   },
   "main": "lib/url-pattern",
+  "module": "es/url-pattern",
   "scripts": {
     "compile": "rollup -c",
     "prepublish": "npm run compile",
